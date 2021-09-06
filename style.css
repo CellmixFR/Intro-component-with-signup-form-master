@@ -124,11 +124,13 @@ input{
     padding: 15px;
     border-radius: 5px;
     
+    
+    
 }
 
 input[type="submit"]{
     margin: 10px;
-    width: 27em;
+    width: 95%;
     border-radius: 5px;
     background-color:hsl(154, 59%, 51%);
     text-transform:uppercase;
