@@ -37,7 +37,7 @@ function validation(e) {
         errorPassword.innerHTML = "Password cannot be empty";
         password.style.borderColor = "hsl(0, 100%, 74%)";
         password.style.background = " url(images/icon-error.svg) no-repeat ";
-        password.style.backgroundPositionX = "20px";
+        password.style.backgroundPositionX = "right 20px";
         password.style.backgroundPositionY = "10px";
     }
     if (!/^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/.test(email.value)) {
