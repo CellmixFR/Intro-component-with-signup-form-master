@@ -20,7 +20,7 @@ function validation(e) {
         e.preventDefault();
         errorFirstName.innerHTML = "First Name cannot be empty";
         firstName.style.borderColor = "hsl(0, 100%, 74%)";
-        firstName.style.background = " url(images/icon-error.svg) no-repeat";
+        firstName.style.background = " url(images/icon-error.svg) no-repeat right";
         firstName.style.backgroundPositionX = "right 20px";
         password.style.backgroundPositionY = "10px";
     }
@@ -28,7 +28,7 @@ function validation(e) {
         e.preventDefault();
         errorLastName.innerHTML = "Last Name cannot be empty";
         lastName.style.borderColor = "hsl(0, 100%, 74%)";
-        lastName.style.background = " url(images/icon-error.svg) no-repeat";
+        lastName.style.background = " url(images/icon-error.svg) no-repeat right";
         lastName.style.backgroundPositionX = "right 20px";
         password.style.backgroundPositionY = "10px";
     }
@@ -36,7 +36,7 @@ function validation(e) {
         e.preventDefault();
         errorPassword.innerHTML = "Password cannot be empty";
         password.style.borderColor = "hsl(0, 100%, 74%)";
-        password.style.background = " url(images/icon-error.svg) no-repeat ";
+        password.style.background = " url(images/icon-error.svg) no-repeat right ";
         password.style.backgroundPositionX = "right 20px";
         password.style.backgroundPositionY = "10px";
     }
@@ -44,7 +44,7 @@ function validation(e) {
         errorEmail.innerHTML = "Looks like this is not an email";
         email.style.color = "hsl(0, 100%, 74%)";
         email.style.borderColor = "hsl(0, 100%, 74%)";
-        email.style.background = " url(images/icon-error.svg) no-repeat";
+        email.style.background = " url(images/icon-error.svg) no-repeat right";
         email.style.backgroundPositionX = "right 20px";
         password.style.backgroundPositionY = "10px";
     }
