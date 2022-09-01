@@ -43,7 +43,7 @@ Users should be able to:
 ### Links
 
 - <a href="https://www.frontendmentor.io/solutions/intro-component-with-signup-form-master-using-html-css-js-5BhsplUr0">Solution</a>
-- <a href="https://cellmixfr.github.io/Intro-component-with-signup-form-master/">Live Site</a>
+- <a href="https://celia-tosic.github.io/Intro-component-with-signup-form-master/">Live Site</a>
 
 ## My process
 
